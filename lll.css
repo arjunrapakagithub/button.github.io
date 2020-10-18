@@ -1,0 +1,37 @@
+.l{
+background-image: url("5.jpg");
+width:  1000px;
+height: 500px;
+background-repeat: no-repeat;
+background-size: cover;
+}
+#butt{
+position: absolute;
+margin-top: 200px;
+margin-left: 400px;
+transform: translate(-50%,-50%);
+text-align: center;
+color: #fff;
+font-size: 24px;
+font-family: sans-serif;
+box-sizing: border-box;
+background: linear-gradient(90deg,#FF4500,#9ACD32,#FFFF00,#9400D3);
+background-size: 400%;
+border-radius: 30px;
+
+}
+#butt:hover{
+
+animation: animate 8s linear infinite;
+}
+@keyframes animate
+{
+0%{
+background-position: 0%;
+
+}
+100%{
+background-position: 400%;
+}
+}
+
